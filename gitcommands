@@ -1,0 +1,64 @@
+| Command                   | Use                                                  ------------------------------------------------------------------------ |
+| `git init`                | Initializes a new Git repository in the current directory.               |
+| `git clone <url>`         | Clones a remote repository into a local directory.                       |
+| `git status`              | Shows the status of changes in your working directory.                   |
+| `git add <file>`          | Adds a file to the staging area.                                         |
+| `git add .`               | Adds all modified/new files to staging.                                  |
+| `git commit -m "message"` | Commits staged changes with a message.                                   |
+| `git log`                 | Shows the commit history.                                                |
+| `git diff`                | Shows changes between commits, branches, or working directory and index. |
+
+                                                     |
+|-------------------------------------------------------------- |
+| `git branch`               | Lists all branches.                                            |
+| `git branch <branch-name>` | Creates a new branch.                                          |
+| `git checkout <branch>`    | Switches to the specified branch.                              |
+| `git switch <branch>`      | Another way to switch branches (newer and more user-friendly). |
+| `git checkout -b <branch>` | Creates and switches to a new branch.                          |
+| `git merge <branch>`       | Merges the specified branch into the current branch.           |
+| `git rebase <branch>`      | Reapplies commits from your branch on top of another branch.   |
+
+
+| Command                       | Use                                                 |
+| ----------------------------- | --------------------------------------------------- |
+| `git remote -v`               | Shows remote repositories.                          |
+| `git remote add <name> <url>` | Adds a remote repository.                           |
+| `git fetch`                   | Downloads objects and refs from another repository. |
+| `git pull`                    | Fetches and merges changes from the remote server.  |
+| `git push`                    | Pushes local commits to the remote repository.      |
+| `git push -u origin <branch>` | Pushes and sets the upstream for tracking.          |
+
+
+| Command                  | Use                                                      |
+| ------------------------ | -------------------------------------------------------- |
+| `git reset <file>`       | Removes a file from staging.                             |
+| `git reset --hard`       | Discards all changes in working directory and index.     |
+| `git reset <commit>`     | Resets HEAD to a specific commit.                        |
+| `git revert <commit>`    | Creates a new commit that reverses the specified commit. |
+| `git checkout -- <file>` | Discards changes in the working directory.               |
+
+
+| Command          | Use                                                   |
+| ---------------- | ----------------------------------------------------- |
+| `git stash`      | Temporarily shelves changes in the working directory. |
+| `git stash pop`  | Applies and removes the latest stash.                 |
+| `git stash list` | Lists all stashes.                                    |
+| `git clean -f`   | Removes untracked files.                              |
+
+
+| Command                             | Use                         |
+| ----------------------------------- | --------------------------- |
+| `git tag`                           | Lists all tags.             |
+| `git tag <tagname>`                 | Creates a new tag.          |
+| `git tag -a <tagname> -m "message"` | Creates an annotated tag.   |
+| `git push origin <tagname>`         | Pushes a tag to the remote. |
+
+
+| Command                    | Use                                                              |
+| -------------------------- | ---------------------------------------------------------------- |
+| `git blame <file>`         | Shows who made each change in a file.                            |
+| `git show <commit>`        | Shows details of a commit.                                       |
+| `git cherry-pick <commit>` | Applies a specific commit from one branch to another.            |
+| `git reflog`               | Shows history of HEAD and branch references.                     |
+| `git archive`              | Creates an archive (e.g., zip) of files from a tree or commit.   |
+| `git bisect`               | Helps find the commit that introduced a bug using binary search. |
