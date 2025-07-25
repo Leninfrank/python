@@ -1,6 +1,5 @@
 from operator import truediv
 
-
 a = 10
 b = 20.54
 c = True
